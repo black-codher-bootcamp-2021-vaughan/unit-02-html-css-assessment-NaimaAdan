@@ -1,0 +1,190 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+}
+
+body {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.navbar {
+  margin: auto;
+  padding: 5px 0;
+  font-size: 17px;
+  width: 500px;
+}
+
+.navbar .navbarItems {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li,
+a {
+  list-style: none;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 10px;
+  color: inherit;
+}
+
+.navbar a:hover {
+  background: rgb(75, 0, 130);
+  border-radius: 5%;
+  color: white;
+}
+
+.main-container {
+  display: flex;
+  align-content: center;
+  height: calc(100vh - 62px);
+  flex-wrap: wrap;
+}
+
+.main-container-header {
+  color: #221f3b;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+  width: 100%;
+  margin: 0;
+}
+
+.main-container-paragraph {
+  color: #050505;
+  font-size: 20px;
+  width: 100%;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.aboutme-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100vh;
+  background-color: #afaaae;
+}
+
+.aboutme-header {
+  color: #1b0d13;
+  font-size: 40px;
+  padding-left: 5%;
+}
+
+.aboutme-paragraph {
+  color: #1b0d13;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 2;
+  margin: 0 5%;
+}
+
+.skills-container {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+}
+#skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills-container #skills {
+  align-content: center;
+  width: 100%;
+}
+.skills-container .skills-header {
+  color: #221f3b;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.skills-container #skills,
+.skills-icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills-container .icon {
+  font-size: 100px;
+  color: #7510f7;
+  padding: 30px;
+}
+
+.contactme-container {
+  background-image: url("images/bgcontactme.jpg");
+  height: calc(100vh - 60px);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contactme-box {
+  padding: 2% 0;
+  width: 100%;
+  background-color: #75596f;
+  opacity: 0.9;
+}
+
+.contactme-title {
+  margin: 2% 5%;
+  color: #25051f;
+  font-size: 45px;
+}
+
+.contactme_form {
+  margin: 0 5% 4%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contactme-field {
+  width: 50%;
+  margin: 4px 0;
+  height: 5%;
+  padding: 16px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.contactme-field_submit:disabled {
+  background-color: #afaaae;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  width: 120px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#footer {
+  margin: 0;
+  background: #2d2b4e;
+  text-align: center;
+  padding: 5px;
+}
+
+#footer p {
+  color: white;
+  font-size: 16px;
+}
